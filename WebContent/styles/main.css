@@ -1,0 +1,167 @@
+/* type selectors */
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+html {
+	background-image: url("../images/background.jpg");
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 960px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 0;
+	border: 6px double blue;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+section {
+	margin-top: 4em;
+	margin-bottom: 1em;	
+}
+
+section h2{margin-bottom:1em;}
+
+section p{margin-bottom:1em;}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    padding-left:10px;
+    width: 25em;
+    box-shadow:2px 2px grey;
+}
+
+
+#search input{ width: 15em;
+height:25px;
+    box-shadow:2px 2px grey;
+    border-radius:5px;}
+#search button{border-radius:5px;
+ height:30px;
+ width:50px;
+ margin-left:10px;}
+
+h1 { font-size: 200%; }
+h2 { font-size: 125%; }
+
+a { font-weight: bold; }
+a:link { color: red; }
+a:visited { color: navy; }
+a:hover, a:focus { color: blue; }
+
+p { padding-bottom: 0.5em; }
+	
+
+
+/* the styles for the header */
+header {
+	background-color: #800000;
+	background-image: -moz-linear-gradient(right, #3344ff 0%, white 30%, #5A71ee 100%);
+	background-image: -webkit-linear-gradient(right, #3344ff 0%, white 30%, #5A71ee 100%);
+	padding-bottom: 2em;
+}
+header h1 {
+	font-size: 275%;
+	font-family: "Lucida Handwriting", cursive;
+	font-weight: bold;
+    color: white;
+    text-shadow: 2px 6px 0 navy;
+    padding-top: .5em;
+    margin-left: 25px;
+	margin-bottom: 0.25em;
+}
+header img{float:right;
+           border:6px solid navy; 
+	       margin:20px;}
+	
+
+
+/* the styles for the section */
+section {
+	width: 620px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	
+}
+section h1 {
+	margin-bottom: 0.5em; 
+}
+
+#search {
+    margin: 1.5em;
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    padding-top: .25em;
+    margin-bottom: .6em;
+}
+
+figure img{
+	width:300px;
+}
+
+/* the styles for the sidebar */
+nav {
+	width: 250px;
+	margin-top:4em;
+	margin-left:1em;
+	float: left;
+	padding-left: 20px;
+	padding-bottom:50px;
+	border:2px solid blue;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 3px 3px 4px 4px rgba(0,0,255,0.4);
+}
+nav h1 {
+	font-size: 125%;
+	margin-top: 30px;
+	padding-bottom: .5em;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	margin-bottom: .5em;
+}
+
+nav img {
+	border: 3px solid navy;
+	margin-right:10px;
+	width:50px;
+}
+nav.site {
+	margin-left: 10px;
+}
+
+ 
+#details, #orbitor {
+	margin-left:1em;
+	margin-bottom:1em;
+	padding-left: 20px;
+	border:2px solid blue;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 3px 3px 4px 4px rgba(0,0,255,0.4);
+}
+#orbitor{
+	height:550px;
+}
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	padding-top: 1em;
+	background-color: #800000;
+	background-image: -moz-linear-gradient(right, #3344ff 0%, white 30%, #3344ff 100%);
+	background-image: -webkit-linear-gradient(right, #3344ff 0%, white 30%, #3344ff 100%);
+}
+footer p {
+	font-size: 80%;
+	color: white;
+	margin-left: 25px;
+	padding-bottom: 1em;
+}
